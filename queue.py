@@ -53,6 +53,18 @@ testCircularQueue.isFull()
 testCircularQueue.enqueue(2)
 testCircularQueue.isFull()
 
+print("----------------------------------")
+
+testCircularQueue2 = CircularQueue()
+testCircularQueue2.enqueue(5)
+testCircularQueue2.isFull()
+testCircularQueue2.enqueue(4)
+testCircularQueue2.isFull()
+testCircularQueue2.enqueue(3)
+testCircularQueue2.isFull()
+testCircularQueue2.enqueue(2)
+testCircularQueue2.isFull()
+
 
 
 
