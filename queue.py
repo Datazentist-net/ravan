@@ -33,6 +33,12 @@ class CircularQueue():
         else:
             self.tail = (self.tail + 1) % self.k
             self.queue[self.tail] = data
+    
+    def isFull(self):
+        if ((self.tail + 1) % self.k == self.head):
+            print("The circular queue is full\n")
+        else:
+            print("Not Full\n")
 
     
 
