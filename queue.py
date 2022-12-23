@@ -24,7 +24,7 @@ class CircularQueue():
     def enqueue(self, data):
 
         if ((self.tail + 1) % self.k == self.head):
-            print("The circular queue is full You cannot add anymore data\n")
+            print("The circular queue is full You cannot add anymore elements\n")
 
         elif (self.head == -1):
             self.head = 0
