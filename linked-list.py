@@ -16,9 +16,13 @@ n2 = Node(2)
 n3 = Node(3)
 
 linked_list.head = n1
-linked_list.head.next = n2
+n1.next = n2
 
 n2.next = n3
+
+while n1 != None:
+    print(n1.item, end=" ")
+    n1 = n1.next
 
 n4 = Node(12)
 n5 = Node(25.8)
