@@ -50,5 +50,13 @@ pop(demoStack)
 pop(demoStack)
 pop(demoStack)
 
+s = 'act'
+val = 0
+for c in s:
+    val += ord(c)
+print (val) 
+
+
+
 
 
