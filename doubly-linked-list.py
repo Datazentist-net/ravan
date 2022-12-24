@@ -15,12 +15,11 @@ class LinkedList:
 def insertNodeInTail(tailNode,newNode):
     tailNode.next = newNode
     newNode.prev = tailNode
-
+# Problem????
 def insertNodeInFront(headNode,newNode):
-    newNode.prev = headNode
-    newNode.next = headNode.next
     headNode.prev = newNode
-
+    newNode.next = headNode # assigning the headnode to the prev
+    
 
 def insertNodeInAPerticularLocation(location,headNode,newNode):
     count = 0
