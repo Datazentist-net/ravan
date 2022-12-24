@@ -11,17 +11,12 @@ value3 = "act" # 312 Kajan
 
 
 # Indrajith
-sumValue1 = 0 # initialise 
-# 1st time = 99
- #      sumvalue = 0 + 99
-#2nd time
-# sumvalue = 196
-# 3rd Time
-# 196 + 116 = 312
-
+sumValue1 = 0
 for charStr in value1:
-    sumValue1  +=  ord(charStr)
+    sumValue1 = sumValue1 + ord(charStr)
 print(value1 + "'s ASCII Value is " + str(sumValue1))
 
+for ch in value1:
+    print (ch)
 
 # Repetition take the one char from the string and get the ascii value sum it until reach the last char
