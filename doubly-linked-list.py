@@ -40,11 +40,10 @@ linked_list = LinkedList()
 n1 = Node(1)
 n2 = Node(2)
 n3 = Node(3)
-n5 = Node(4)
+n5 = Node(3)
 
 insertNodeInTail(n1,n2)
 insertNodeInTail(n2,n3)
-insertNodeInTail(n3,n5)
 
 n4 = Node(64)
 
