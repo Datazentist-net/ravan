@@ -10,6 +10,13 @@ value2 = "dog" # 314 Pallavi
 value3 = "act" # 312 Kajan
 
 
+# Indrajith
+sumValue1 = 0
+for charStr in value1:
+    sumValue1 = sumValue1 + ord(charStr)
+print(value1 + "'s ASCII Value is " + str(sumValue1))
+
+
 for ch in value1:
     print (ch)
 
